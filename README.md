@@ -14,9 +14,12 @@ We have built the Machine Learning models by tuning it by GridSearchCV for Rando
 - Machine Learning Algorithm: Decision to decide which ML parameters are to be selected by GridSearchCV is performed. 
 - Evaluation: The algorithm is evaluated on test data and we recorded the performance.
 
-''' r 
+The notebook that evaluates the traditional methods is: 
 
-code line
+```
+traditional_methods.ipynb
+```
+
 
 ### Google AutoML Tables
 
