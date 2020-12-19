@@ -6,4 +6,10 @@ Designing architectures for machine learning networks can be challenging. Our go
 We have looked into 4 autoML systems namely, Auto-sklearn (Feurer et al., 2019), Google Cloud AutoML (Google), H20 (H2O.ai, 2017) and TPot and build the system to tackle Classification problems.  At each step of the machine learning pipeline we have focused on the metrics to look into while implementing an AutoML model and compare it against its corresponding counterpart in the conventional or traditional strategy.
 Datasets used:  Wine dataset,  Bank marketing dataset, Spambase dataset
 
+### Traditional Methods
 
+We have built the Machine Learning models by tuning it by GridSearchCV for Random Forest, Gaussian Naive Bayes, Decision Tree and Logistic Regression. 
+- Data Ingestion and Preparation: Manipulation of data is performed before it is ready for ingestion by the algorithms.
+- Feature Engineering Automation: Estimation of the ability of the system to explore all available features and discover and evaluate features is done. 
+- Machine Learning Algorithm: Decision to decide which ML parameters are to be selected by GridSearchCV is performed. 
+- Evaluation: The algorithm is evaluated on test data and we recorded the performance. 
