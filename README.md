@@ -27,6 +27,8 @@ Cloud AutoML is a suite of machine learning products that enables professionals 
 
 We implemented AutoML on the 3 datasets mentioned above. In Fig. 3,  we can see the results obtained from the Spambase Dataset. We can also check what parameters were used for the best performing model by viewing ‘Google Logging’ and record these parameters.
 
+_Reference: https://cloud.google.com/automl-tables_ to implement Google AutoML Tables
+
 ### Auto sklearn
 
 ### TPOT 
@@ -37,4 +39,18 @@ The notebook that evaluates the above AutoML methods is:
 ```
 automl_methods.ipynb
 ```
+
+#### References: 
+
+References: 
+[1] ] L. Kotthoff, C. Thornton, H. H. Hoos, F. Hutter, and K. LeytonBrown, “Auto-weka 2.0: Automatic model selection and hyperparameter optimization in weka,” The Journal of Machine Learning Research, vol. 18, no. 1, pp. 826–830, Jan. 2017
+
+[2] M. Feurer, A. Klein, K. Eggensperger, J. Springenberg, M. Blum, and F. Hutter, “Efficient and robust automated machine learning,” in Advances in Neural Information Processing Systems 28, 2015, pp. 2962–297
+
+[3] “Mljar,” https://github.com/mljar/mljar-api-python, accessed: 2019-04-10.
+
+[4] https://cloud.google.com/automl-tables
+
+
+
 
