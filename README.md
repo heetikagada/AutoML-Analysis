@@ -12,4 +12,16 @@ We have built the Machine Learning models by tuning it by GridSearchCV for Rando
 - Data Ingestion and Preparation: Manipulation of data is performed before it is ready for ingestion by the algorithms.
 - Feature Engineering Automation: Estimation of the ability of the system to explore all available features and discover and evaluate features is done. 
 - Machine Learning Algorithm: Decision to decide which ML parameters are to be selected by GridSearchCV is performed. 
-- Evaluation: The algorithm is evaluated on test data and we recorded the performance. 
+- Evaluation: The algorithm is evaluated on test data and we recorded the performance.
+
+### Google AutoML Tables
+
+Cloud AutoML is a suite of machine learning products that enables professionals with limited or no machine learning expertise to train high-quality models specific to their business needs. AutoML Tables is a supervised learning service. It uses structured data to train ML models for any data that the user gives. We select one column as the target dataset in AutoML. This column can be changed to create any number of models with the analyzed training data. We can also customize the training data by changing different hyperparameters like training/testing data split, node training hours and optimization parameters (AUC ROC, AUC PR etc. )
+
+We implemented AutoML on the 3 datasets mentioned above. In Fig. 3,  we can see the results obtained from the Spambase Dataset. We can also check what parameters were used for the best performing model by viewing ‘Google Logging’ and record these parameters.
+
+### Auto sklearn
+
+### TPOT 
+
+### H2O
