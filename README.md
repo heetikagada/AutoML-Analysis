@@ -32,7 +32,7 @@ traditional_methods.ipynb
 
 Cloud AutoML is a suite of machine learning products that enables professionals with limited or no machine learning expertise to train high-quality models specific to their business needs. AutoML Tables is a supervised learning service. It uses structured data to train ML models for any data that the user gives. We select one column as the target dataset in AutoML. This column can be changed to create any number of models with the analyzed training data. We can also customize the training data by changing different hyperparameters like training/testing data split, node training hours and optimization parameters (AUC ROC, AUC PR etc. )
 
-We implemented AutoML on the 3 datasets mentioned above. In Fig. 3,  we can see the results obtained from the Spambase Dataset. We can also check what parameters were used for the best performing model by viewing ‘Google Logging’ and record these parameters.
+We implemented AutoML on the 3 datasets mentioned above. We can also check what parameters were used for the best performing model by viewing ‘Google Logging’ and record these parameters.
 
 _Reference: https://cloud.google.com/automl-tables_ to implement Google AutoML Tables
 
