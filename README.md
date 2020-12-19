@@ -32,3 +32,9 @@ We implemented AutoML on the 3 datasets mentioned above. In Fig. 3,  we can see 
 ### TPOT 
 
 ### H2O
+
+The notebook that evaluates the above AutoML methods is: 
+```
+automl_methods.ipynb
+```
+
