@@ -56,7 +56,7 @@ It automates the process of building a large number of models, to find the best 
 5. Returns a sorted “Leaderboard” of all models.
 The framework does not have any limitations on pre processing and the dataset can be directly fed to the framework. The user can choose from the leaderboard of models to use as his final model (By default the leader model is selected during predition).
 
-___________
+
 
 The notebook that evaluates the above AutoML methods is: 
 ```
