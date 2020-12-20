@@ -38,9 +38,25 @@ _Reference: https://cloud.google.com/automl-tables_ to implement Google AutoML T
 
 ### Auto sklearn
 
+Auto-Sklearn is an open-source library for performing AutoML in Python. It makes use of the popular Scikit-Learn machine learning library for data transforms and machine learning algorithms. It frees the machine learning user from algorithm selection and hyperparameter tuning leveraging recent advantages in Bayesian optimization, meta-learning and ensemble construction. The model takes in training data and the pipeline decides how to handle categorical features. It is to be noted that the only Valid  Data types accepted are  numerical, categorical or boolean Issue. After training the show_models function return a representation of the final ensemble found by auto-sklearn. sprint_statistics() can also be used to summarize the search and the performance of the final model. This helps alleviate the worry whether most algorithms have been taken into account or not
+
 ### TPOT 
 
+TPOT provides a scikit-learn-like interface for use in Python, but can be called from the command line as well. It constructs machine learning pipelines of arbitrary length using scikit-learn algorithms and, optionally, xgboost. In its search, preprocessing and stacking are both considered. After the search, it is able to export python code so that you may reconstruct the pipeline without dependencies on TPOT. While technically pipelines can be of any length, TPOT performs multi-objective optimization: it aims to keep the number of components in the pipeline small while optimizing the main metric. TPOT features support for sparse matrices, multiprocessing and custom pipeline components.
+
+
 ### H2O
+
+H2O supports the most widely used statistical & machine learning algorithms, including gradient boosted machines, generalized linear models, deep learning, and many more.
+It automates the process of building a large number of models, to find the best model without any prior knowledge or effort by the Data Scientist. The H2O autoML framework performs:
+1. Necessary data pre-processing steps( as in all H2O algorithms ).
+2. Trains a Random grid of algorithms like GBMs, DNNs, GLMs, etc. using a carefully chosen hyper-parameter space.
+3. Individual models are tuned using cross-validation.
+4. Two Stacked Ensembles are trained. One ensemble contains all the models (optimized for model performance), and the other ensemble provides just the best performing model from each algorithm class/family (optimized for production use).
+5. Returns a sorted “Leaderboard” of all models.
+The framework does not have any limitations on pre processing and the dataset can be directly fed to the framework. The user can choose from the leaderboard of models to use as his final model (By default the leader model is selected during predition).
+
+___________
 
 The notebook that evaluates the above AutoML methods is: 
 ```
